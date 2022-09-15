@@ -4,11 +4,10 @@ import "./HighScore.css";
 function HighScore(props) {
 
     const [itens, setItens] = useState(undefined);
-
     
     useEffect(function () {
         async function carregarPontuacoes() {
-            const response = await fetch("http://localhost:3001/pontuacoes");
+            const response = await fetch(process.env.REACT_APP_URL || "http://localhost:3001/pontuacoes");
             const body = await response.json();
             setItens(body);
         }
@@ -23,7 +22,7 @@ function HighScore(props) {
         const form = event.target;
         const name = form.name.value;
 
-        const response = await fetch("http://localhost:3001/pontuacoes", {
+        const response = await fetch(process.env.REACT_APP_URL || "http://localhost:3001/pontuacoes", {
             method: "POST",
             body: JSON.stringify({ nome: name, pontos: props.pontos }),
             headers: {
