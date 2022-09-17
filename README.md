@@ -3,7 +3,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-:point_right:[**Visit the project website**](https://ocean-mario-game-react.herokuapp.com/), play the game and save your score.
+:point_right:[**Visit the project website**](https://ocean-mario-game-react.herokuapp.com/), play the game and save your score.<br />
+
+Note: To make Mario jump, press a key of your choice.
 
 ## Getting Started
 
