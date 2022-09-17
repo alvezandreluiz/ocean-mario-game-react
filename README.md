@@ -1,4 +1,5 @@
 # ocean-mario-game-react
+![mario game](https://user-images.githubusercontent.com/89081192/190835266-01a0733a-c209-4aed-b5fd-8bd7f5469a07.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
